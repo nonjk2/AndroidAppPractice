@@ -79,7 +79,20 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="여기에 입력하세요:"/>
+        android:hint="여기에 입력하세요:"
+        android:inputType="number"/> <!--입력시 숫자만-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="여기에 입력하세요:"
+        android:inputType="textPassword"/> <!--입력시 별표-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="여기에 입력하세요:"
+        android:inputType="textEmailAddress"/> <!--입력할때 골뱅이가 달려서 나옴-->
 
 
 
